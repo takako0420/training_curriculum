@@ -1,6 +1,6 @@
 class CalendarsController < ApplicationController
 
-
+  require 'date'
 
   # １週間のカレンダーと予定が表示されるページ
   def index
